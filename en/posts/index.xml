@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Posts on Cooper Johnson</title>
+		<link>johnson-cooper.github.io/en/posts/</link>
+		<description>Recent content in Posts on Cooper Johnson</description>
+		<generator>Hugo -- 0.152.2</generator>
+		<language>en-us</language>
+		<copyright>2025</copyright>
+		<lastBuildDate>Sun, 16 Nov 2025 01:08:22 -0500</lastBuildDate>
+		<atom:link href="johnson-cooper.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		<item>
+			<title>Nexus Revival - Yu-Gi-Oh World Championship 2011 Homebrew (NDS)</title>
+			<link>johnson-cooper.github.io/en/posts/nexusrevival/</link>
+			<pubDate>Sun, 16 Nov 2025 01:08:22 -0500</pubDate><guid>johnson-cooper.github.io/en/posts/nexusrevival/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="yu-gi-oh-world-championship-2011---nexus-revival-patch">Yu-Gi-Oh! World Championship 2011 - Nexus Revival Patch<a href="#yu-gi-oh-world-championship-2011---nexus-revival-patch" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<p><img src="https://www.romhacking.net/hacks/ds/images/titles/8988titlescreen.jpg" alt="Yu-Gi-Oh!"></p>
+<p><strong>Nexus Revival 2011</strong> is a ROM homebrew for <em>Yu-Gi-Oh! World Championship 2011</em> that revitalizes the game with new content, enhanced graphics, and improved gameplay mechanics. This patch allows you to enjoy a fresh experience while preserving the original charm of the game.</p>
+<hr>
+<h2 id="features">Features<a href="#features" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<ul>
+<li><strong>New Card Packs</strong> – Access additional cards not originally available in the base game.</li>
+<li><strong>Custom Graphics</strong> – Enhanced visuals for a modernized look.</li>
+<li><strong>New CPU Decks</strong> – Face more challenging and diverse AI opponents.</li>
+<li><strong>Gameplay Enhancements</strong> – Minor tweaks to improve balance and replayability.</li>
+<li><strong>Educational Value</strong> – A great resource for ROM homebrew enthusiasts to explore game modification techniques.</li>
+</ul>
+<hr>
+<h2 id="credits">Credits<a href="#credits" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<ul>
+<li><strong>tereotis</strong> – Hex offsets and patch groundwork</li>
+<li><strong>volo</strong> – Python modifications, card-to-pack mapping, CPU deck creation</li>
+<li><strong>opiter09</strong> – PAC file unpacking</li>
+<li><strong>jovel, g30rgi, dongtae26 &amp; others</strong> – Deck contributions and testing</li>
+</ul>
+<p>Special thanks to the ROM homebrew community for inspiration and guidance.</p>
+<hr>
+<p>Enjoy dueling with <strong>Nexus Revival 2011</strong>! 🃏</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>4-Division Toolset</title>
+			<link>johnson-cooper.github.io/en/posts/4-divisiontoolset/</link>
+			<pubDate>Sun, 16 Nov 2025 01:01:22 -0500</pubDate><guid>johnson-cooper.github.io/en/posts/4-divisiontoolset/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="4-division-toolset">4-Division Toolset<a href="#4-division-toolset" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<p>Welcome to the <strong>4-Division Toolset</strong>, a collection of web-based utilities designed to streamline creative and web development tasks. This toolset is hosted online and offers easy access to various tools directly from your browser.</p>
+<hr>
+<h2 id="tools-overview">Tools Overview<a href="#tools-overview" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<h3 id="1-fbxu---online-model-viewer">1. FBXu - Online Model Viewer<a href="#1-fbxu---online-model-viewer" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>An interactive <strong>3D model viewer</strong> that allows you to preview and inspect 3D models online. Perfect for designers and developers working with 3D assets.</p>
+<h3 id="2-3d-text-generator">2. 3D Text Generator<a href="#2-3d-text-generator" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>A tool to <strong>create customized 3D text</strong> for web or graphic design projects. Supports font customization and text styling for quick design iterations.</p>
+<h3 id="3-bootstrap-5-color-theme-generator">3. Bootstrap 5 Color Theme Generator<a href="#3-bootstrap-5-color-theme-generator" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>Easily generate <strong>Bootstrap 5 color themes</strong> for your websites. Customize colors and preview your theme before implementation.</p>
+<hr>
+<h2 id="access-the-tools">Access the Tools<a href="#access-the-tools" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>You can explore the tools directly via the following links:</p>
+<ul>
+<li><a href="/fbxu.html">FBXu - Online Model Viewer</a></li>
+<li><a href="/text-gen.html">3D Text Generator</a></li>
+<li><a href="/bootstrap.html">Bootstrap 5 Color Theme Generator</a></li>
+</ul>
+<hr>
+<h2 id="full-tool-list">Full Tool List<a href="#full-tool-list" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>For a complete list of available tools, check out <a href="/list.html">List of Tools</a>.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>BalanceSigns 1.8.8 Minecraft Server Plugin</title>
+			<link>johnson-cooper.github.io/en/posts/balancesigns/</link>
+			<pubDate>Sun, 16 Nov 2025 00:52:35 -0500</pubDate><guid>johnson-cooper.github.io/en/posts/balancesigns/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="balancesigns">BalanceSigns<a href="#balancesigns" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<p>Economy Bukkit plugin for Minecraft 1.8.8</p>
+<p><img src="https://cdn.modrinth.com/data/j5uNsrEN/ea018ce85ca1509bd92818ceb9ed0d7bd30527ba.png" alt="Logo"></p>
+<h2 id="overview">Overview<a href="#overview" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>Compiled for Minecraft version 1.8.8</p>
+<p>Requires Vault for economy rewards (Tested with Vault 1.5.5)</p>
+<p>Put [topbalance] on a sign to get started</p>
+<p>Wait for server refresh</p>
+<p>Right click on sign opens GUI with top players</p>
+<h2 id="features">Features<a href="#features" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<ul>
+<li>Returns top players from server with highest amount of ecoconmic worth.</li>
+<li>GUI Based</li>
+<li>Adjustable config to change paramenters of how the plugin works</li>
+<li>No permissions</li>
+</ul>
+<h2 id="permissions">Permissions<a href="#permissions" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>balancesigns.createsign</p>
+<p><a href="https://modrinth.com/plugin/balancesigns">Modrinth</a></p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Slayertasks 1.8.8 Minecraft Server Plugin</title>
+			<link>johnson-cooper.github.io/en/posts/slayertasks/</link>
+			<pubDate>Sun, 16 Nov 2025 00:50:32 -0500</pubDate><guid>johnson-cooper.github.io/en/posts/slayertasks/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="slayertasks">Slayertasks<a href="#slayertasks" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<p>Slayer task bukkit plugin for Minecraft 1.8.8</p>
+<p><img src="https://media.forgecdn.net/avatars/960/383/638456120410824394.jpeg" alt="Logo"></p>
+<h1 id="overview">Overview<a href="#overview" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<p>Assignable mob quests/tasks and bounties !
+Simple lightweight quest system with config and permissions</p>
+<p>Compiled for Minecraft version 1.8.8</p>
+<p>Requires Vault for economy rewards (Tested with Vault 1.5.5)</p>
+<p>Assign tasks to players to fight different mobs specified in the config !</p>
+<h2 id="features">Features:<a href="#features" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>Simple and lightweight quest system without saving information.
+GUI based for ease of accessibility
+Different scales of difficulty with different amount of mobs and economy rewards (fully customizable)
+Full integration of Vault API
+Permissions</p>
+<h2 id="commands">Commands:<a href="#commands" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>/slayer - Opens slayer menu</p>
+<p>/skc - Checks task progress</p>
+<h2 id="permissions">Permissions:<a href="#permissions" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>slayertasks.slayer</p>
+<p>slayertasks.skc</p>
+<p><a href="https://github.com/johnson-cooper/slayertasks">Source</a> <a href="https://modrinth.com/plugin/slayertasks">Modrinth</a></p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Retro Revisions 1.2.5 Minecraft Mod</title>
+			<link>johnson-cooper.github.io/en/posts/retrorevisions/</link>
+			<pubDate>Sun, 16 Nov 2025 00:48:51 -0500</pubDate><guid>johnson-cooper.github.io/en/posts/retrorevisions/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="retrorevisions">RetroRevisions<a href="#retrorevisions" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<p>Minecraft 1.2.5 mod for backporting various features from future versions of Minecraft.</p>
+<p><img src="https://cdn.modrinth.com/data/3LawwdAh/images/c7c8fd50cb6071d63925b23972df96f91b336b31.png" alt="Logo"></p>
+<h2 id="features">Features<a href="#features" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<ul>
+<li>Block of Netherite (Made with 9 diamond blocks)</li>
+<li>Beacon (Complete backport of the beacon that extends in a 50 block radius) (Made by smelting Lux Aeterna)</li>
+<li>Item frames</li>
+<li>Daylight / Night Detectors (Made with glowstone in middle, surrounded by redstone)</li>
+</ul>
+<p>Original Blocks:</p>
+<ul>
+<li>Chimney (redstone surrounded by coal) block that emits smoke when powered by redstone</li>
+<li>Lux Aeterna (Made with 9 Blocks of Netherite)</li>
+<li>Iron Boat (Unbreakable collision boat that can move fast on ice like in later versions)</li>
+<li>Redstone Stairs (Changes direction based on redstone signal) (three redstone dust on bottom, 3 iron ingots like stairs)</li>
+</ul>
+<h2 id="installation">Installation:<a href="#installation" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">  add to the minecraft.jar the entire zip in versions either through prism/mmc or manually
+</span></span></code></pre></div><p><a href="https://github.com/johnson-cooper/retrorevisions">Source</a> <a href="https://modrinth.com/mod/retrorevisions">Modrinth</a></p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Trap Runner (GBA) Homebrew</title>
+			<link>johnson-cooper.github.io/en/posts/trap-runner-gba/</link>
+			<pubDate>Sun, 16 Nov 2025 00:35:00 -0500</pubDate><guid>johnson-cooper.github.io/en/posts/trap-runner-gba/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="trap-runner-gba">Trap Runner (GBA)<a href="#trap-runner-gba" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<p><strong>Year:</strong> 2022<br>
+<strong>Engine:</strong> BP Core Engine<br>
+<strong>Platform:</strong> Game Boy Advance</p>
+<hr>
+<h2 id="overview">Overview<a href="#overview" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p><strong>Trap Runner</strong> is a Game Boy Advance game created using the BP Core Engine. It was one of my first coding projects, developed in 2022. The gameplay is simple, yet addictive, inspired by classic games like <em>Copter</em>.</p>
+<p>In <strong>Trap Runner</strong>, you control a character that continuously moves forward. Your goal is to navigate up and down to avoid enemies and walls while trying to survive as long as possible. The game features a timer that measures how far you can go. If you crash into an obstacle or enemy, the timer resets, challenging you to beat your previous record.</p>
+<hr>
+<h2 id="gameplay">Gameplay<a href="#gameplay" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<ul>
+<li><strong>Controls:</strong> Move up and down to avoid obstacles.</li>
+<li><strong>Objective:</strong> Survive for as long as possible without crashing.</li>
+<li><strong>Mechanics:</strong>
+<ul>
+<li>Timer tracks your progress.</li>
+<li>Collision with enemies or walls resets the timer.</li>
+<li>Continuous challenge inspired by classic side-scrolling avoidance games.</li>
+</ul>
+</li>
+</ul>
+<p>The fast-paced gameplay encourages quick reflexes and precise movements, making each attempt exciting.</p>
+<hr>
+<h2 id="development-process">Development Process<a href="#development-process" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>Creating <strong>Trap Runner</strong> was an early project that taught me a lot about game development for the GBA. Here&rsquo;s a summary of the process:</p>
+<ol>
+<li>
+<p><strong>Choosing the Engine:</strong><br>
+I selected the BP Core Engine for its simplicity and GBA compatibility, which allowed me to focus on gameplay mechanics rather than low-level hardware concerns.</p>
+</li>
+<li>
+<p><strong>Designing the Gameplay:</strong><br>
+Inspired by <em>Copter</em>, I wanted a simple, yet addictive gameplay loop: move, avoid, survive, and repeat. I implemented a timer system to track progress and reset upon crashes.</p>
+</li>
+<li>
+<p><strong>Implementing Obstacles and Enemies:</strong><br>
+I coded enemy patterns and wall collisions to provide increasing challenges as the player progresses.</p>
+</li>
+<li>
+<p><strong>Polishing and Testing:</strong><br>
+I spent time balancing the game&rsquo;s difficulty, adjusting the speed and spacing of obstacles to make it fair but challenging.</p>
+</li>
+<li>
+<p><strong>Final Touches:</strong><br>
+I added a basic UI to display the timer and reset the game upon crashing, creating a complete experience ready to play on the GBA or an emulator.</p>
+</li>
+</ol>
+<hr>
+<h2 id="play-the-game">Play the Game<a href="#play-the-game" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>You can try <strong>Trap Runner</strong> in your browser using an emulator:</p>
+<p><a href="/emulator.html">▶ Play Trap Runner</a></p>
+<hr>
+<p><strong>Trap Runner</strong> remains a personal milestone in my early coding journey, blending nostalgia for classic GBA games with the satisfaction of building something from scratch. I also created the OST, which was an awesome experience for me.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Ironplanner.men</title>
+			<link>johnson-cooper.github.io/en/posts/ironplanner.men/</link>
+			<pubDate>Sat, 15 Nov 2025 23:37:07 -0500</pubDate><guid>johnson-cooper.github.io/en/posts/ironplanner.men/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="ironplannermen---group-ironman-planner-for-oldschool-runescape">ironplanner.men - Group Ironman Planner For Oldschool Runescape<a href="#ironplannermen---group-ironman-planner-for-oldschool-runescape" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<p><strong><a href="https://ironplanner.men">https://ironplanner.men</a></strong> is a web-based planning and management tool designed specifically for Old School RuneScape (OSRS) Group Ironman teams. It enables groups to efficiently coordinate tasks, track progress, and achieve goals together.</p>
+<h2 id="key-features">Key Features<a href="#key-features" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<ul>
+<li>
+<p><strong>Member Management</strong><br>
+Add and manage group members, assign roles, and track responsibilities. Each member can be color-coded for quick identification.</p>
+</li>
+<li>
+<p><strong>Task Management (Kanban Board)</strong><br>
+Create, edit, and organize tasks using a dynamic Kanban-style board. Tasks can be filtered by member or type, prioritized, and moved between columns (Backlog, In Progress, Done) via drag-and-drop.</p>
+</li>
+<li>
+<p><strong>Goals Tracking</strong><br>
+Set group goals with specific targets and deadlines. Goals include optional notes or strategies to guide members toward completion.</p>
+</li>
+<li>
+<p><strong>Wishlist / Item Tracking</strong><br>
+Maintain a shared list of items your group wants to acquire, track quantities, and mark items as acquired.</p>
+</li>
+<li>
+<p><strong>Notes &amp; Strategies</strong><br>
+Store strategies, progress notes, and meeting notes in a centralized location. Notes are saved locally and included when sharing or exporting the planner.</p>
+</li>
+<li>
+<p><strong>Interactive Timeline</strong><br>
+Visualize tasks with due dates on an interactive timeline. Features zoom controls, today marker, and horizontal scrolling for easy navigation.</p>
+</li>
+<li>
+<p><strong>Progress Visualization</strong><br>
+View overall group progress with a doughnut chart showing tasks in Backlog, In Progress, and Done.</p>
+</li>
+<li>
+<p><strong>Share &amp; Export</strong><br>
+Generate shareable links to share the current state of the planner or export/import the data as JSON for backup and collaboration.</p>
+</li>
+</ul>
+<h2 id="technology">Technology<a href="#technology" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<ul>
+<li>Built with <strong>HTML, CSS, and JavaScript</strong></li>
+<li>Uses <strong>Bootstrap 5</strong> for responsive layout and modals</li>
+<li><strong>SortableJS</strong> for drag-and-drop task management</li>
+<li><strong>Chart.js</strong> for progress visualization</li>
+<li>Fully client-side with local storage, no server required</li>
+</ul>
+<hr>
+<p><strong>ironplanner.men</strong> streamlines group coordination for OSRS Group Ironman players, helping teams stay organized, track tasks, achieve goals, and maximize efficiency in-game.</p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>

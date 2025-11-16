@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Text Generator</title>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+    <style>
+        body {
+          margin: 0;
+          align-items:center;
+          justify-content:center;
+          
+          
+        }
+  
+        #three-container {
+          width: 80%;
+          height: 400px; /* Set an initial height for the Three.js container */
+        }
+    </style>
+  </head>
+  <body class="bg-dark text-light">
+    <div class="container mx-auto align-items-center justify-content-center mt-4">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6">
+            Developed by <a href = "https://4-division.com">4-division</a>
+            <br>
+            <label for="font-select">Select Font:</label>
+<select id="font-select" class="form-control">
+  <option value="https://threejs.org/examples/fonts/helvetiker_regular.typeface.json">Helvetiker</option>
+  <option value="/fonts/font4.json">MB-Forever Raw</option>
+  <option value="/fonts/font1.json">Verdana</option>
+  <option value="/fonts/font2.json">Emotion Engine</option>
+  <option value="/fonts/font3.json">Montserrat</option>
+  <option value="/fonts/font5.json">Arial</option>
+  
+  <!-- Add more options for other fonts as needed -->
+</select>
+          <label for="text-input">Enter text:</label>
+          <input type="text" id="text-input" class="form-control" placeholder="Type your text here" />
+          <label for="color-input">Text color:</label>
+          <input type="color" id="color-input" class="form-control" value="#00ff00" />
+          <button id="generate-button" class="btn btn-dark mt-2">Generate 3D Text</button>
+          <button id="save-button" class="btn btn-dark mt-2">Save as GLTF</button>
+        </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+        <div class="col-md-6">
+          <div id="three-container"></div>
+        </div>
+        </div>
+      </div>
+  
+<div class="container">
+    <script type="module">
+      import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js';
+      import { GLTFExporter } from 'https://cdn.skypack.dev/three@0.129.0/examples/jsm/exporters/GLTFExporter.js';
+      import { OrbitControls } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js@r128/examples/jsm/controls/OrbitControls.js';
+
+      let scene, camera, renderer, textMesh, controls, textMaterial;
+
+      function init() {
+  scene = new THREE.Scene();
+  camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000); // Aspect ratio set to 1
+
+  // Set the renderer size based on the dimensions of the #three-container
+  const container = document.getElementById('three-container');
+  renderer = new THREE.WebGLRenderer();
+  renderer.setSize(container.clientWidth, container.clientHeight);
+  container.appendChild(renderer.domElement);
+  controls = new OrbitControls(camera, renderer.domElement);
+
+        const fontLoader = new THREE.FontLoader();
+        fontLoader.load(
+          'https://threejs.org/examples/fonts/helvetiker_regular.typeface.json',
+          function (font) {
+            createTextMesh(font);
+          }
+        );
+
+        camera.position.z = 50;
+      }
+
+      function animate() {
+        requestAnimationFrame(animate);
+
+        renderer.render(scene, camera);
+      }
+
+      function generateText() {
+        const userInput = document.getElementById('text-input').value;
+        const colorInput = document.getElementById('color-input').value;
+        scene.remove(textMesh);
+
+        const fontLoader = new THREE.FontLoader();
+        fontLoader.load(
+          'https://threejs.org/examples/fonts/helvetiker_regular.typeface.json',
+          function (font) {
+            createTextMesh(font, userInput, colorInput);
+          }
+        );
+      }
+
+      function createTextMesh(font, text = 'Hello, Three.js!', color = '#00ff00') {
+        const textGeometry = new THREE.TextGeometry(text, {
+          font: font,
+          size: 20,
+          height: 5,
+          curveSegments: 12,
+          bevelEnabled: false,
+          bevelThickness: 10,
+          bevelSize: 8,
+          bevelOffset: 0,
+          bevelSegments: 5,
+        });
+
+        // Center the text geometry
+        textGeometry.computeBoundingBox();
+        const textBoundingBox = textGeometry.boundingBox;
+        const textWidth = textBoundingBox.max.x - textBoundingBox.min.x;
+        textGeometry.translate(-textWidth / 2, 0, 0);
+
+        textMaterial = new THREE.MeshBasicMaterial({
+          color: new THREE.Color(color),
+        });
+
+        textMesh = new THREE.Mesh(textGeometry, textMaterial);
+        scene.add(textMesh);
+      }
+
+      function saveAsGLTF() {
+        const gltfExporter = new GLTFExporter();
+
+        // Pass the material to the GLTFExporter
+        const options = {
+          trs: false,
+          onlyVisible: true,
+          truncateDrawRange: true,
+          binary: false,
+          forcePowerOfTwoTextures: false,
+          maxTextureSize: Infinity,
+          separators: [',', ':'],
+        };
+
+        gltfExporter.parse(
+          scene,
+          function (gltf) {
+            const data = JSON.stringify(gltf, null, 2);
+            const blob = new Blob([data], { type: 'application/json' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'text_model.gltf';
+            link.click();
+          },
+          options
+        );
+      }
+
+      document.addEventListener('DOMContentLoaded', function () {
+        // Check if the elements exist before adding event listeners
+        const textInput = document.getElementById('text-input');
+        const colorInput = document.getElementById('color-input');
+        const generateButton = document.getElementById('generate-button');
+        const saveButton = document.getElementById('save-button');
+
+        if (textInput && colorInput && generateButton && saveButton) {
+          textInput.addEventListener('input', generateText);
+          colorInput.addEventListener('input', generateText);
+          generateButton.addEventListener('click', generateText);
+          saveButton.addEventListener('click', saveAsGLTF);
+        }
+        const fontSelect = document.getElementById('font-select');
+
+        function loadSelectedFont() {
+  const selectedFontUrl = fontSelect.value;
+
+  // Check if a font is selected
+  if (selectedFontUrl) {
+    const textInput = document.getElementById('text-input').value;
+    const colorInput = document.getElementById('color-input').value;
+
+    scene.remove(textMesh);
+
+    const fontLoader = new THREE.FontLoader();
+    fontLoader.load(selectedFontUrl, function (font) {
+      createTextMesh(font, textInput, colorInput);
+    });
+  } else {
+    console.error('No font selected.');
+  }
+}
+
+// Add an event listener to the font select element
+fontSelect.addEventListener('change', loadSelectedFont);
+
+        init();
+        animate();
+      });
+    </script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      
+    
+      </div>
+  </body>
+</html>

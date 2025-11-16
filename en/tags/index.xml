@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Cooper Johnson</title>
+    <link>johnson-cooper.github.io/en/tags/</link>
+    <description>Recent content in Tags on Cooper Johnson</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>2025</copyright>
+    <lastBuildDate>Sun, 16 Nov 2025 01:08:22 -0500</lastBuildDate>
+    <atom:link href="johnson-cooper.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homebrew</title>
+      <link>johnson-cooper.github.io/en/tags/homebrew/</link>
+      <pubDate>Sun, 16 Nov 2025 01:08:22 -0500</pubDate>
+      <guid>johnson-cooper.github.io/en/tags/homebrew/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>johnson-cooper.github.io/en/tags/web-development/</link>
+      <pubDate>Sun, 16 Nov 2025 01:01:22 -0500</pubDate>
+      <guid>johnson-cooper.github.io/en/tags/web-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Minecraft</title>
+      <link>johnson-cooper.github.io/en/tags/minecraft/</link>
+      <pubDate>Sun, 16 Nov 2025 00:52:35 -0500</pubDate>
+      <guid>johnson-cooper.github.io/en/tags/minecraft/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OSRS</title>
+      <link>johnson-cooper.github.io/en/tags/osrs/</link>
+      <pubDate>Sat, 15 Nov 2025 23:37:07 -0500</pubDate>
+      <guid>johnson-cooper.github.io/en/tags/osrs/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

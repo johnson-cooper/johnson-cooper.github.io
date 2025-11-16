@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minecraft on Cooper Johnson</title>
+    <link>johnson-cooper.github.io/en/tags/minecraft/</link>
+    <description>Recent content in Minecraft on Cooper Johnson</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>2025</copyright>
+    <lastBuildDate>Sun, 16 Nov 2025 00:52:35 -0500</lastBuildDate>
+    <atom:link href="johnson-cooper.github.io/en/tags/minecraft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BalanceSigns 1.8.8 Minecraft Server Plugin</title>
+      <link>johnson-cooper.github.io/en/posts/balancesigns/</link>
+      <pubDate>Sun, 16 Nov 2025 00:52:35 -0500</pubDate>
+      <guid>johnson-cooper.github.io/en/posts/balancesigns/</guid>
+      <description>&lt;h1 id=&#34;balancesigns&#34;&gt;BalanceSigns&lt;a href=&#34;#balancesigns&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&#xD;&#xA;      stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&#xD;&#xA;      &lt;path d=&#34;M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3&#34;&gt;&lt;/path&gt;&#xD;&#xA;      &lt;line x1=&#34;8&#34; y1=&#34;12&#34; x2=&#34;16&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;&#xD;&#xA;   &lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Economy Bukkit plugin for Minecraft 1.8.8&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.modrinth.com/data/j5uNsrEN/ea018ce85ca1509bd92818ceb9ed0d7bd30527ba.png&#34; alt=&#34;Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;a href=&#34;#overview&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&#xD;&#xA;      stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&#xD;&#xA;      &lt;path d=&#34;M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3&#34;&gt;&lt;/path&gt;&#xD;&#xA;      &lt;line x1=&#34;8&#34; y1=&#34;12&#34; x2=&#34;16&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;&#xD;&#xA;   &lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Compiled for Minecraft version 1.8.8&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Slayertasks 1.8.8 Minecraft Server Plugin</title>
+      <link>johnson-cooper.github.io/en/posts/slayertasks/</link>
+      <pubDate>Sun, 16 Nov 2025 00:50:32 -0500</pubDate>
+      <guid>johnson-cooper.github.io/en/posts/slayertasks/</guid>
+      <description>&lt;h1 id=&#34;slayertasks&#34;&gt;Slayertasks&lt;a href=&#34;#slayertasks&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&#xD;&#xA;      stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&#xD;&#xA;      &lt;path d=&#34;M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3&#34;&gt;&lt;/path&gt;&#xD;&#xA;      &lt;line x1=&#34;8&#34; y1=&#34;12&#34; x2=&#34;16&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;&#xD;&#xA;   &lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Slayer task bukkit plugin for Minecraft 1.8.8&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://media.forgecdn.net/avatars/960/383/638456120410824394.jpeg&#34; alt=&#34;Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;a href=&#34;#overview&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&#xD;&#xA;      stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&#xD;&#xA;      &lt;path d=&#34;M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3&#34;&gt;&lt;/path&gt;&#xD;&#xA;      &lt;line x1=&#34;8&#34; y1=&#34;12&#34; x2=&#34;16&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;&#xD;&#xA;   &lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Assignable mob quests/tasks and bounties !&#xA;Simple lightweight quest system with config and permissions&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Retro Revisions 1.2.5 Minecraft Mod</title>
+      <link>johnson-cooper.github.io/en/posts/retrorevisions/</link>
+      <pubDate>Sun, 16 Nov 2025 00:48:51 -0500</pubDate>
+      <guid>johnson-cooper.github.io/en/posts/retrorevisions/</guid>
+      <description>&lt;h1 id=&#34;retrorevisions&#34;&gt;RetroRevisions&lt;a href=&#34;#retrorevisions&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&#xD;&#xA;      stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&#xD;&#xA;      &lt;path d=&#34;M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3&#34;&gt;&lt;/path&gt;&#xD;&#xA;      &lt;line x1=&#34;8&#34; y1=&#34;12&#34; x2=&#34;16&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;&#xD;&#xA;   &lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Minecraft 1.2.5 mod for backporting various features from future versions of Minecraft.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.modrinth.com/data/3LawwdAh/images/c7c8fd50cb6071d63925b23972df96f91b336b31.png&#34; alt=&#34;Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;a href=&#34;#features&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&#xD;&#xA;      stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&#xD;&#xA;      &lt;path d=&#34;M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3&#34;&gt;&lt;/path&gt;&#xD;&#xA;      &lt;line x1=&#34;8&#34; y1=&#34;12&#34; x2=&#34;16&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;&#xD;&#xA;   &lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Block of Netherite (Made with 9 diamond blocks)&lt;/li&gt;&#xA;&lt;li&gt;Beacon (Complete backport of the beacon that extends in a 50 block radius) (Made by smelting Lux Aeterna)&lt;/li&gt;&#xA;&lt;li&gt;Item frames&lt;/li&gt;&#xA;&lt;li&gt;Daylight / Night Detectors (Made with glowstone in middle, surrounded by redstone)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Original Blocks:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
