@@ -6,7 +6,7 @@
 
 baseURL = "johnson-cooper.github.io"
 defaultContentLanguage = "en"
-#defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = true
 theme = "hermit-v2"
 #enableRobotsTXT = true ## set to true to enable inbuilt robots.txt
 
