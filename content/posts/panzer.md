@@ -13,7 +13,7 @@ categories:
 
 **Year:** 2023  
 **Created with:** Industry-level producers  
-
+![Logo](https://payhip.com/cdn-cgi/image/format=auto/https://pe56d.s3.amazonaws.com/o_1hmfbmaats9a10mvc5km1f182817.jpg)
 ---
 
 ## Overview
@@ -73,4 +73,5 @@ Panzer VST is available for **Windows** and **MacOS**.
 ## License
 
 Free to use for personal and commercial projects.
+
 
