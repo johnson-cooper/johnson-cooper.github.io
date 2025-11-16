@@ -1,7 +1,7 @@
 ---
 title: "Panzer VST"
 date: 2025-11-16T02:06:01-05:00
-draft: true
+draft: false
 toc: false
 images:
 tags: 
@@ -73,3 +73,4 @@ Panzer VST is available for **Windows** and **MacOS**.
 ## License
 
 Free to use for personal and commercial projects.
+
