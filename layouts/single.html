@@ -1,0 +1,13 @@
+{{ define "main" }}
+<header class="proj-head">
+  <div class="wrap">
+    <p class="mono" style="margin:0">{{ .Title }}</p>
+    <h1>{{ .Params.headline | default .Title }}</h1>
+    {{- with .Params.summary }}<p class="lede">{{ . }}</p>{{ end }}
+  </div>
+</header>
+<div class="wrap" style="padding-bottom:5rem">
+  <div class="prose">{{ .Content }}</div>
+  {{- if eq .Params.contact true }}{{ partial "contact-list.html" . }}{{ end }}
+</div>
+{{ end }}

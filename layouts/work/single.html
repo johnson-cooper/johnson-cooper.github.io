@@ -1,0 +1,37 @@
+{{ define "main" }}
+<article>
+<header class="proj-head">
+  <div class="wrap">
+    <a class="crumb" href="{{ "work/" | relURL }}">← Work</a>
+    <h1>{{ .Title }}</h1>
+    <p class="lede">{{ .Params.summary }}</p>
+  </div>
+</header>
+<div class="wrap proj-body">
+  <aside class="proj-side" aria-label="Project facts">
+    <dl class="spec">
+      <div><dt>Status</dt><dd>{{ partial "status.html" .Params.status }}{{ with .Params.statusNote }}<br><span class="stack">{{ . }}</span>{{ end }}</dd></div>
+      <div><dt>Year</dt><dd>{{ .Params.year }}</dd></div>
+      <div><dt>Type</dt><dd>{{ .Params.attribution }}</dd></div>
+      <div><dt>My role</dt><dd>{{ .Params.role }}</dd></div>
+      <div><dt>Stack</dt><dd>{{ delimit .Params.stack ", " }}</dd></div>
+      {{- with .Params.metrics }}
+      <div><dt>Numbers</dt><dd><ul>{{ range . }}<li class="metric">{{ .v }}<small>{{ .k }}</small></li>{{ end }}</ul></dd></div>
+      {{- end }}
+      {{- with .Params.links }}
+      <div><dt>Links</dt><dd><ul>{{ range . }}<li><a href="{{ .url }}">{{ .label }} ↗</a></li>{{ end }}</ul></dd></div>
+      {{- end }}
+    </dl>
+  </aside>
+  <div>
+    {{- with .Params.attributionNote }}
+    <div class="attrib"><span class="mono">Attribution</span><p>{{ . | markdownify }}</p></div>
+    {{- end }}
+    {{ partial "flow.html" . }}
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+</article>
+{{ end }}

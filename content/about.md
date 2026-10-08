@@ -1,86 +1,30 @@
 ---
-title: "Home"
+title: "About"
+headline: "A self-directed engineer who likes hard platforms."
+summary: "Full-stack developer with a systems habit: I learn unfamiliar hardware and codebases well enough to ship working software on them."
+aliases: ["/en/about/"]
 ---
 
-## About Me
+## Background
 
-# Cooper Johnson — Full-Stack Developer  
+I started as a front-end and full-stack developer: React and Next.js sites, Python scripts for content and data, JSON-driven pages, and small tools that run in a browser. That is still the foundation of how I build, and it is why my systems projects tend to come with tooling, a website, or an automated pipeline attached.
 
----
+Over the last couple of years I have moved steadily lower in the stack. The work now is mostly C and C++ for the PlayStation 2, where there are 32 MB of RAM, a separate sound processor, and drivers that must be loaded by hand. I have written an original audio workstation for it, ported a networked client to it, and built a launcher and a software catalog around it.
 
-## 🚀 Professional Summary
-I am a full-stack developer specializing in modern, fast, and component-driven web applications.  
-My strengths are clean UI/UX, responsive design, dynamic front-end architecture, and efficient back-end tooling.
+## How I work
 
-My professional focus is **software engineering and full-stack web development**.
+- **Learn the platform first.** I read SDK sources, driver code and emulator behaviour until I know where the limits actually are, then design inside them.
+- **Write the budget down.** Memory, thread priorities, buffer sizes and timing are documented next to the code that depends on them.
+- **Say what has been verified.** Emulator results and real-hardware results are different claims, and I keep them apart in READMEs and on this site.
+- **Use AI tools openly.** Several of my recent repositories were built with an AI coding assistant, and the commit history says so. I direct the work, test it, and credit it accurately.
+- **Be accurate about what is mine.** Several repositories here start from other people's open-source projects. The work pages say which parts I wrote.
 
----
+## Music
 
-## 🧠 Technical Skills
+Before and alongside software, I produce music as **AttackIsHere** and have released a free sub-bass plugin, [Panzer](/work/panzer-vst/). It is a smaller part of this site by choice, but audio is a recurring thread in my software work.
 
-### **Languages**
-- **HTML5** — semantic structure, accessibility, SEO-friendly markup  
-- **CSS3** — responsive layouts (Flexbox, Grid), animations, design systems  
-- **JavaScript (ES6+)** — DOM scripting, async/await, APIs, modular patterns  
-- **Python** — automation, scripting, data processing, small web services  
-- **Java** — object-oriented programming, backend services, tooling  
-- **Lua** — lightweight scripting for tools, automation, and embedded systems  
+## What I am looking for
 
----
+Software engineering work, full-stack or systems, on a team that has a hard problem and wants someone who will learn it properly. I am also happy to collaborate on homebrew and open-source tooling.
 
-### **Frameworks & Libraries**
-- **React.js** — functional components, hooks, state management, context APIs  
-- **Next.js** — server-side rendering (SSR), static generation (SSG), routing, API routes  
-- **Bootstrap** — rapid UI prototyping, responsive layouts, modular components  
-- Familiar with: Vite, Webpack, Tailwind basics, Git workflows, and npm/Yarn tooling  
-
----
-
-## 🛠️ Development Expertise
-
-### **Frontend Development**
-- Building responsive single-page applications with React & Next.js  
-- Creating reusable component libraries and UI patterns  
-- CSS architecture: BEM, utility-first patterns, and clean, maintainable styling  
-- Performance-first mindset: code-splitting, optimization, and fast load times  
-
-### **Backend / Scripting**
-- Developing RESTful endpoints using lightweight frameworks  
-- Python tooling for automation, data parsing, content generation  
-- Node.js experience for utilities, API routes, and server-side logic  
-- Working with structured JSON, APIs, and filesystems for dynamic content  
-
-### **Tooling & Workflow**
-- Git feature-branch workflow, PR reviews, multi-environment deployment  
-- CI/CD fundamentals (Vercel/Netlify pipelines for web apps)  
-- Efficient debugging and profiling for JS and Python stacks  
-- Documentation writing, clean code, and scalable project structures  
-
----
-
-## 📂 Selected Development Work
-- Built interactive artist and product landing pages using **Next.js + React**, optimized for SEO and mobile responsiveness  
-- Created custom UI components and modular CSS for clean, minimalist layouts  
-- Developed Python scripts to automate content generation, data updates, and file processing  
-- Integrated audio players, gallery components, merch layouts, and dynamic routing into web projects  
-- Designed JSON-driven systems for posts, data, and dynamic rendering in React/Next.js  
-
----
-
-## 🎧 Background: Music Production (AttackIsHere)
-While my career is centered on software development, I have a strong creative background as a **music producer** under the name **Attackishere**.
-
-**Highlights:**
-- Produced for **Lil Peep** and several notable artists in the underground scene  
-- Experienced in the full production pipeline: composition → arrangement → engineering → final stems  
-- Developed a strong sense of creative problem-solving and artistic direction, which influences my approach to UI/UX and software design  
-
-This background contributes to my ability to create user-focused, emotionally thoughtful interfaces and well-structured technical work.
-
----
-
-## 📬 Contact
-**Email:** cooperjohnson0000@gmail.com   
-**GitHub:** https://github.com/johnson-cooper
-
----
+<p><a class="btn primary" href="/contact/">Get in touch <span class="arr" aria-hidden="true">→</span></a></p>

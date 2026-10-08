@@ -1,0 +1,12 @@
+{{- with .Params.flow }}
+<ol class="flow" aria-label="Architecture overview">
+  {{- range . }}
+  <li>
+    <h3>{{ .title }}</h3>
+    {{- with .sub }}<span class="sub">{{ . }}</span>{{ end }}
+    <ul>{{ range .items }}<li>{{ . }}</li>{{ end }}</ul>
+  </li>
+  {{- end }}
+</ol>
+{{- with $.Params.flowCaption }}<p class="flow-cap">{{ . }}</p>{{ end }}
+{{- end }}
