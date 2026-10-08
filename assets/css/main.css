@@ -223,3 +223,21 @@ h3 { font-size: 1.3rem; }
   :root { --bg: #fff; --fg: #000; --fg-2: #222; --mute: #555; --rule: #ccc; --rule-2: #999; --accent: #000; }
   .site-nav, .filters, .hero-actions { display: none; }
 }
+
+/* ---------- github stats ---------- */
+.gh-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin: 0 0 2rem; border-top: 1px solid var(--rule-2); }
+@media (min-width: 48rem) { .gh-stats { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.gh-stats div { padding: 1rem 1rem 1rem 0; border-bottom: 1px solid var(--rule); }
+.gh-stats dt { font: .72rem var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--mute); }
+.gh-stats dd { margin: .3rem 0 0; font: 2.2rem/1 var(--serif); }
+.heat { width: 100%; max-width: 44rem; height: auto; margin: 0 0 1rem; }
+.heat rect { fill: var(--rule); }
+.heat .l1 { fill: var(--accent); opacity: .3; }
+.heat .l2 { fill: var(--accent); opacity: .55; }
+.heat .l3 { fill: var(--accent); opacity: .8; }
+.heat .l4 { fill: var(--accent); }
+.gh-meta { font: .78rem var(--mono); color: var(--mute); margin: 0 0 2rem; }
+.gh-h { font: .76rem var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--mute); margin: 0 0 .5rem; }
+.gh-feed { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule-2); max-width: 44rem; }
+.gh-feed li { padding: .55rem 0; border-bottom: 1px solid var(--rule); color: var(--fg-2); display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: .5rem; overflow-wrap: anywhere; }
+.row-group { font: .76rem var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--mute); margin: 3.5rem 0 1rem; }

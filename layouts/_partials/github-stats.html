@@ -1,0 +1,32 @@
+{{- $g := site.Data.github -}}
+{{- if $g.login }}
+<div class="gh" id="gh" data-user="{{ $g.login }}">
+  <dl class="gh-stats">
+    <div><dt>Public repositories</dt><dd id="gh-repos">{{ $g.publicRepos }}</dd></div>
+    <div><dt>Stars received</dt><dd id="gh-stars">{{ $g.stars }}</dd></div>
+    <div><dt>Followers</dt><dd id="gh-followers">{{ $g.followers }}</dd></div>
+    {{- with $g.calendar }}<div><dt>Contributions, last year</dt><dd>{{ lang.FormatNumber 0 .total }}</dd></div>{{ end }}
+  </dl>
+  {{- with $g.calendar }}
+  {{- $max := 1 }}{{ range .weeks }}{{ range . }}{{ if gt (index . 1) $max }}{{ $max = index . 1 }}{{ end }}{{ end }}{{ end }}
+  <svg class="heat" viewBox="0 0 {{ mul (len .weeks) 13 }} 91" role="img" aria-label="Contribution calendar for the last year: {{ .total }} contributions in total">
+    {{- range $x, $w := .weeks }}{{ range $y, $d := $w }}
+    {{- $c := index $d 1 }}{{ $l := 0 }}
+    {{- if gt $c 0 }}{{ $l = 1 }}{{ if gt (mul $c 4) $max }}{{ $l = 2 }}{{ end }}{{ if gt (mul $c 2) $max }}{{ $l = 3 }}{{ end }}{{ if gt (mul $c 4) (mul $max 3) }}{{ $l = 4 }}{{ end }}{{ end }}
+    <rect class="l{{ $l }}" x="{{ mul $x 13 }}" y="{{ mul $y 13 }}" width="10" height="10"><title>{{ index $d 0 }}: {{ $c }}</title></rect>
+    {{- end }}{{ end }}
+  </svg>
+  {{- end }}
+  <p class="gh-meta"><span id="gh-badge" class="status" data-s="archived">Snapshot</span>
+    <span id="gh-when">{{ $g.generatedAt | time.Format "2 Jan 2006" }}</span>
+    · public data from <a href="https://github.com/{{ $g.login }}" rel="me">github.com/{{ $g.login }}</a></p>
+  <h3 class="gh-h">Recent public activity</h3>
+  <ul class="gh-feed" id="gh-feed">
+    {{- range $g.events }}
+    <li><span class="mono">{{ .at | time.Format "2 Jan" }}</span><span>{{ if eq .type "PushEvent" }}Pushed to{{ else if eq .type "ReleaseEvent" }}Released{{ else if eq .type "PullRequestEvent" }}Pull request in{{ else }}Created{{ end }} <a href="https://github.com/{{ .repo }}">{{ .repo }}</a></span></li>
+    {{- end }}
+  </ul>
+</div>
+{{- $js := resources.Get "js/github-live.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{- end }}
