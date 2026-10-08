@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="proj-head">
+  <div class="wrap">
+    <p class="mono" style="margin:0 0 1rem">Work</p>
+    <h1>Projects</h1>
+    <p class="lede">{{ .Params.intro }}</p>
+  </div>
+</section>
+<section class="section" style="border-top:0">
+  <div class="wrap">
+    {{- $all := .Pages -}}
+    <div class="filters" id="filters" role="group" aria-label="Filter projects by status" hidden>
+      <button type="button" data-f="all" aria-pressed="true">All</button>
+      <button type="button" data-f="released" aria-pressed="false">Released</button>
+      <button type="button" data-f="active" aria-pressed="false">Active</button>
+      <button type="button" data-f="experimental" aria-pressed="false">Experimental</button>
+      <button type="button" data-f="archived" aria-pressed="false">Archived</button>
+    </div>
+    <p class="count" id="count" aria-live="polite">{{ len $all }} projects</p>
+    <ol class="rows" id="rows">
+      {{- range $i, $p := $all.ByWeight }}
+      {{ partial "row.html" (dict "p" $p "i" (add $i 1)) }}
+      {{- end }}
+    </ol>
+    <div class="prose" style="margin-top:3rem">
+      <p class="mono">What is not listed</p>
+      <p>My GitHub account also holds forks and mirrors of other people's projects: decompilation projects, game-engine reimplementations, and ports of third-party engines. I have left them off this page because I cannot show original contributions in them. Private repositories are not shown either.</p>
+    </div>
+  </div>
+</section>
+{{- $js := resources.Get "js/filter.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}

@@ -1,0 +1,91 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="mono" style="margin:0 0 1.5rem">Software engineer · Full-stack · Systems</p>
+      <h1>Cooper<span>Johnson</span></h1>
+      <p class="lede">I build full-stack applications, and native software for hardware with <em>32&nbsp;MB of RAM</em>.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#work">Selected work <span class="arr" aria-hidden="true">↓</span></a>
+        <a class="btn" href="{{ site.Params.github }}" rel="me">GitHub <span class="arr" aria-hidden="true">↗</span></a>
+        <a class="btn" href="mailto:{{ site.Params.email }}">Email</a>
+      </div>
+    </div>
+    <dl class="spec">
+      <div><dt>Focus</dt><dd>Native C and C++ on constrained platforms; TypeScript, Go and Python around it</dd></div>
+      <div><dt>Shipped</dt><dd>Twelve tagged PlayStation 2 releases across four ports, a VST3 plugin, a live web app</dd></div>
+      <div><dt>Current</dt><dd>A digital audio workstation that runs natively on the PlayStation 2</dd></div>
+      <div><dt>Open to</dt><dd>Software engineering roles and collaboration</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="section" id="work">
+  <div class="wrap section-grid">
+    <div class="section-label"><b>01</b>Selected work</div>
+    <div>
+      <h2>Six projects, each with the part I engineered spelled out.</h2>
+      <ol class="rows">
+        {{- $feat := where (where site.RegularPages "Section" "work") "Params.featured" true -}}
+        {{- range $i, $p := $feat.ByWeight }}
+        {{ partial "row.html" (dict "p" $p "i" (add $i 1)) }}
+        {{- end }}
+      </ol>
+      <p style="margin-top:1.5rem"><a class="btn" href="{{ "work/" | relURL }}">All projects and archive <span class="arr" aria-hidden="true">→</span></a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap section-grid">
+    <div class="section-label"><b>02</b>Capabilities</div>
+    <div>
+      <h2>Grouped by what I can do. Each line is backed by code in the work above.</h2>
+      <div class="caps">
+        <div class="cap">
+          <h3>Application engineering</h3>
+          <p>Web applications, JSON APIs and desktop software: a localStorage-backed planning app, a Go and TypeScript desktop client with a built-in proxy, and a statically generated catalog with a JSON API.</p>
+          <span class="mono">TypeScript · JavaScript · Go · Astro · Wails · Node.js</span>
+        </div>
+        <div class="cap">
+          <h3>Systems engineering</h3>
+          <p>C and C++ under hard limits: fixed memory budgets, a real-time audio thread fed by a lock-free queue, R5900 alignment faults, and bounds-checking untrusted network input.</p>
+          <span class="mono">C · C++ · memory management · concurrency · debugging</span>
+        </div>
+        <div class="cap">
+          <h3>Platform development</h3>
+          <p>Bring-up on the PlayStation 2: Graphics Synthesizer rendering, IOP driver loading, controller input, network stack, USB and HDD storage, with platform code kept apart from portable code.</p>
+          <span class="mono">PS2SDK · gsKit · SPU2 · IOP modules · PCSX2 debugger</span>
+        </div>
+        <div class="cap">
+          <h3>Tooling &amp; automation</h3>
+          <p>Scheduled GitHub Actions pipelines that discover, validate and publish data inside API rate budgets; release workflows that build for Windows, macOS and Linux.</p>
+          <span class="mono">GitHub Actions · Node.js · Python · CMake · CI releases</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap section-grid">
+    <div class="section-label"><b>03</b>Approach</div>
+    <div class="prose">
+      <p><strong>I learn the platform before I write the feature.</strong> Most of this site began with a machine or a codebase I did not understand and ended with software running on it. The PlayStation 2 is the clearest case: a 2000-era console with 32&nbsp;MB of main memory, a separate audio processor, and an I/O processor that has to be told which drivers to load.</p>
+      <p>I also write down what has and has not been verified. The DAW's README separates "builds", "runs in an emulator" and "confirmed on real hardware", and says plainly that the last column is still empty. I have tried to hold this whole portfolio to the same standard.</p>
+      <p><a href="{{ "about/" | relURL }}">More about me →</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section cta">
+  <div class="wrap section-grid">
+    <div class="section-label"><b>04</b>Contact</div>
+    <div>
+      <h2>Hiring, or have something hard to build? Write to me.</h2>
+      <p>I am looking for software engineering work where the problem is the interesting part. Email is the fastest route.</p>
+      {{ partial "contact-list.html" . }}
+    </div>
+  </div>
+</section>
+{{ end }}

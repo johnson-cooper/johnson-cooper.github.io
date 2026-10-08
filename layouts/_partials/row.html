@@ -1,0 +1,16 @@
+{{- /* context: dict "p" page "i" index (1-based) */ -}}
+{{- $p := .p -}}
+<li class="row" data-status="{{ $p.Params.status }}">
+  <a href="{{ $p.RelPermalink }}">
+    <span class="idx">{{ printf "%02d" .i }}</span>
+    <span>
+      <h3>{{ $p.Title }}</h3>
+      <p>{{ $p.Params.summary }}</p>
+    </span>
+    <span class="meta">
+      {{ partial "status.html" $p.Params.status }}<br>
+      {{ $p.Params.year }} · {{ $p.Params.attribution }}<br>
+      <span class="stack">{{ delimit (first 4 $p.Params.stack) ", " }}</span>
+    </span>
+  </a>
+</li>
