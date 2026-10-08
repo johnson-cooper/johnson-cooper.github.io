@@ -1,7 +1,7 @@
 // Progressive enhancement: without JS every project is listed.
 (() => {
   const bar = document.getElementById('filters');
-  const rows = [...document.querySelectorAll('#rows .row')];
+  const rows = [...document.querySelectorAll('.rows .row')];
   const count = document.getElementById('count');
   if (!bar || !rows.length) return;
   bar.hidden = false;

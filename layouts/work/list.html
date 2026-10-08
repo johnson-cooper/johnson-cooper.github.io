@@ -9,6 +9,8 @@
 <section class="section" style="border-top:0">
   <div class="wrap">
     {{- $all := .Pages -}}
+    {{- $own := where $all "Params.contribution" "ne" true -}}
+    {{- $contrib := where $all "Params.contribution" true -}}
     <div class="filters" id="filters" role="group" aria-label="Filter projects by status" hidden>
       <button type="button" data-f="all" aria-pressed="true">All</button>
       <button type="button" data-f="released" aria-pressed="false">Released</button>
@@ -18,7 +20,13 @@
     </div>
     <p class="count" id="count" aria-live="polite">{{ len $all }} projects</p>
     <ol class="rows" id="rows">
-      {{- range $i, $p := $all.ByWeight }}
+      {{- range $i, $p := $own.ByWeight }}
+      {{ partial "row.html" (dict "p" $p "i" (add $i 1)) }}
+      {{- end }}
+    </ol>
+    <h2 class="row-group" id="contributions">Contributions to other people's projects</h2>
+    <ol class="rows" id="rows-contrib">
+      {{- range $i, $p := $contrib.ByWeight }}
       {{ partial "row.html" (dict "p" $p "i" (add $i 1)) }}
       {{- end }}
     </ol>
