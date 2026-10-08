@@ -1,8 +1,7 @@
 ---
 title: "PS2 Dashboard"
 summary: "A PlayStation 2 launcher in C that scans storage devices, decodes native PS2 icons, plays hardware-looped music, and chain-loads ELF programs, all from a single self-contained ELF."
-weight: 5
-featured: true
+weight: 11
 
 year: "2026"
 status: experimental

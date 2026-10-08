@@ -2,7 +2,6 @@
 title: "Launchstation"
 summary: "A controller-first PlayStation 2 dashboard and file manager. I wrote its theme engine, with 19 presets and a themed UI toolkit, plus audio, device-aware app visibility and CI fixes."
 weight: 5
-draft: true
 featured: true
 contribution: true
 year: "2026"
@@ -17,9 +16,8 @@ metrics:
   - { k: "built-in themes", v: "19" }
   - { k: "my commits / total", v: "27 / 462" }
 links:
-  - { label: "Repository", url: "https://github.com/NathanNeurotic/Launchstation" }
-  - { label: "Theme engine PR (merged)", url: "https://github.com/NathanNeurotic/Launchstation/pull/1" }
-attributionNote: "Launchstation is NathanNeurotic's project, built on the long-running wLaunchELF line of PlayStation 2 file managers. He wrote most of it (435 of 462 commits). My part is the work described below. The repository has no licence file of its own, so the upstream wLaunchELF terms apply to the inherited code."
+  - { label: "Project documentation site", url: "https://nathanneurotic.github.io/Launchstation/" }
+attributionNote: "Launchstation is NathanNeurotic's project, built on the long-running wLaunchELF line of PlayStation 2 file managers. He wrote most of it (435 of 462 commits). My part is the work described below. The source repository is private at the moment, so there is no code link here and this page is written from my own commit and pull-request history; the project's public documentation site is linked instead."
 flow:
   - title: "Theme model"
     sub: "one struct drives the UI"
