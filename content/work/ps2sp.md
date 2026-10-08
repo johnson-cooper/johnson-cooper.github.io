@@ -1,7 +1,7 @@
 ---
 title: "PS2SP"
 summary: "A static, Git-backed catalog of PlayStation 2 homebrew, kept current by scheduled GitHub Actions that sync known projects and discover new ones inside a fixed API budget."
-weight: 3
+weight: 4
 featured: true
 year: "2026"
 status: active

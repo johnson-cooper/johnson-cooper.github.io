@@ -1,8 +1,7 @@
 ---
 title: "Cross-platform desktop shell for a browser game client"
 summary: "A Go and Wails desktop application that embeds a TypeScript game client, proxies its network traffic, adds overlays such as an XP tracker and world map, and ships builds for Windows, macOS and Linux from CI."
-weight: 5
-featured: true
+weight: 13
 year: "2026"
 status: released
 statusNote: "13 tagged releases, v0.1.x to v0.2.3, April–May 2026"

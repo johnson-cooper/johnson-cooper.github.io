@@ -1,7 +1,7 @@
 ---
 title: "Project GOAT"
 summary: "A cross-platform C++ and raylib desktop client for a card-game simulator, driven by an open-source duel engine running as a separate process, with a CMake build and release workflow for three operating systems."
-weight: 11
+weight: 15
 year: "2026"
 status: experimental
 statusNote: "Releases up to v0.1.7 (Aug 2026)"

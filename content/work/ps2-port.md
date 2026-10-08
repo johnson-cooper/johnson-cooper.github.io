@@ -1,7 +1,7 @@
 ---
 title: "PlayStation 2 port of an open-source game client"
 summary: "Fitting a portable C client into 32 MB of RAM: Graphics Synthesizer rendering, network bring-up, a controller scheme with on-screen keyboard, and the memory and bounds bugs that only showed up on real hardware."
-weight: 2
+weight: 3
 featured: true
 year: "2026"
 status: released

@@ -1,7 +1,7 @@
 ---
 title: "Autonomous bot system for a game-server mod"
 summary: "A TypeScript goal planner, needs model and task library that lets scripted players progress through a persistent game world on their own."
-weight: 10
+weight: 14
 year: "2026"
 status: experimental
 statusNote: "Early access; the repository has no license file"
